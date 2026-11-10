@@ -35,6 +35,7 @@ export const LONG_RUNNING_COMMANDS = [
   "list_schematic_labels",
   "get_schematic_view",
   "digikey_check_library_availability",
+  "search_symbols", // local patch: cold symbol index takes ~31 s on macOS + KiCad 10
 ] as const;
 
 /**
